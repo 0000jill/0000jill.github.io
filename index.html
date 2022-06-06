@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>this is my profile</title>
+		<meta charset="utf-8">
+		<link href="mystyle.css" rel="stylesheet">
+		<script>
+			function myFunction(){
+				var element = document.body;
+				element.classList.toggle("dark");
+			}
+		</script>
+	</head>
+	<body>                                                               <!--css:只要反白 字背景就會變色-->
+		<section id="me">
+			<div>
+				<button onclick="myFunction()">Change Mode!</button>    <!--css:按change mode會從白變黑-->
+				<h1>WELCOME:)</h1>                                      <!--css:是div的first child 字體會變-->
+				<br>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<hr>
+					<img src="22.jpg" width="30%">
+				</div>
+			</div>
+
+			<div>
+				<p id="basic">以下是我的<b>基本資訊</b>:</p>             <!--css:id=basic的標籤會變紅色-->
+				<ul>
+					<li>牡羊座</li>
+					<li>O型</li>
+					<li>台中人</li>
+					<li>今年大二</li>
+				</ul>	
+			</div>
+		</section>
+
+		<section>
+			<div>
+			<table border="3">
+				<caption>從小到大的經歷</caption>
+				<thead style="background-color:#D1CDDA">
+					<tr>                                                <!--css:游標移到上面會變色-->
+						<th></th><th>事件</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>小學</td>
+						<td>
+							<ul>
+								<li>開始學溜冰</li>
+								<li>加國小田徑隊</li>
+								<li>小五拿到短跑第三名</li>
+								<li>畢業時拿到校長獎</li>
+							</ul>	
+						</td>
+					</tr>
+
+					<tr>
+						<td>國中</td>
+						<td>
+							<ul>
+								<li>參加科展</li>
+								<li>進入國中的田徑隊</li>
+								<li>國二溜冰拿到佳作</li>
+								<li>國三畢業拿到市長獎</li>
+								<li>高二辦給偏鄉國小的營隊</li>
+								<li>高三參加志工團</li>
+							</ul>	
+						</td>
+					</tr>
+					<tr>
+						<td>大學</td>
+						<td>
+							<ul>
+								<li>進入中央資管</li>
+								<li>參加系學會活動部</li>
+								<li>大二運動會丟鉛球</li>
+								<li>大四出國進修</li>
+							</ul>	
+						</td>
+					</tr>		
+				</tbody>
+			</table>
+			</div>
+		</section>
+		<section>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/NCULogo.svg"  alt="this is the picture" width="10%">
+		</section>
+	</body>
+</html>

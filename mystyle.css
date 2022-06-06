@@ -1,0 +1,28 @@
+body {
+	background-color: white;
+	color: black;
+}
+.dark {
+	background-color: black;
+	color: white;
+}
+::selection {
+	background: #D1CDDA;
+}
+button {
+	float: right;
+	position: sticky;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+tr:hover {
+	background-color: red;
+}
+p[id="basic"] {
+	color: red;
+}
+div:first-child  {
+	font-family: "Lucida Console", monospace;
+}
